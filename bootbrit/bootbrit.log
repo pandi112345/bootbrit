@@ -1,0 +1,286 @@
+2023-01-09 09:29:44.383  INFO 4504 --- [main] com.kgisl.bootbrit.BootbritApplication   : Starting BootbritApplication using Java 1.8.0_131 on KGISL070 with PID 4504 (C:\Users\praveen.paneerselvam\Desktop\bootbrit\target\classes started by praveen.paneerselvam in C:\Users\praveen.paneerselvam\Desktop\bootbrit)
+2023-01-09 09:29:44.395 DEBUG 4504 --- [main] com.kgisl.bootbrit.BootbritApplication   : Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-09 09:29:44.396  INFO 4504 --- [main] com.kgisl.bootbrit.BootbritApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-09 09:29:45.576  INFO 4504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-09 09:29:45.727  INFO 4504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 3 JPA repository interfaces.
+2023-01-09 09:29:47.006  INFO 4504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-09 09:29:47.023  INFO 4504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-09 09:29:47.024  INFO 4504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-09 09:29:47.596  INFO 4504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-09 09:29:47.597  INFO 4504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3117 ms
+2023-01-09 09:29:48.464  INFO 4504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-09 09:29:48.751  INFO 4504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-09 09:29:49.513  INFO 4504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 09:29:50.209  WARN 4504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-09 09:29:50.436 DEBUG 4504 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-01-09 09:29:50.480  INFO 4504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-09 09:29:50.525 DEBUG 4504 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-01-09 09:29:50.562 DEBUG 4504 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-01-09 09:29:50.588 DEBUG 4504 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-01-09 09:29:50.809  INFO 4504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-09 09:29:50.830  INFO 4504 --- [main] com.kgisl.bootbrit.BootbritApplication   : Started BootbritApplication in 7.432 seconds (JVM running for 8.671)
+2023-01-09 09:30:05.415  INFO 4504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09 09:30:05.416  INFO 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-09 09:30:05.416 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-01-09 09:30:05.417 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-01-09 09:30:05.417 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-01-09 09:30:05.418 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3b3546a3
+2023-01-09 09:30:05.419 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@563172d3
+2023-01-09 09:30:05.420 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-01-09 09:30:05.420  INFO 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-01-09 09:30:05.444 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-01-09 09:30:05.464 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2023-01-09 09:30:05.465 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name 'forward:', model {}
+2023-01-09 09:30:05.466 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [index.html]
+2023-01-09 09:30:05.469 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-01-09 09:30:05.471 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:30:05.524 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2023-01-09 09:30:05.542 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:30:05.798 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-01-09 09:30:05.799 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:30:05.802 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 09:30:05.804 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 09:30:05.805 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 09:30:05.809 DEBUG 4504 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 09:30:06.003 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 09:30:06.015 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 09:30:05 IST 2023, status=404, error=Not Found, path=/favicon.ico}]
+2023-01-09 09:30:06.089 DEBUG 4504 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 09:32:10.279 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/index2.html", parameters={}
+2023-01-09 09:32:10.282 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:10.286 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:10.321 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/doer.js", parameters={}
+2023-01-09 09:32:10.322 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:10.326 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:13.548 DEBUG 4504 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/Signup.html", parameters={}
+2023-01-09 09:32:13.549 DEBUG 4504 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:13.553 DEBUG 4504 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:23.692 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/user/getin", parameters={}
+2023-01-09 09:32:23.692 DEBUG 4504 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#gotologin(User, HttpServletRequest)
+2023-01-09 09:32:23.803 DEBUG 4504 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [User [id=0, username=praveeen, password=1234, cpassword=null, email=null]]
+2023-01-09 09:32:23.859  INFO 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : -----------------------@Before advice called--------------------------------------
+2023-01-09 09:32:23.863 DEBUG 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : Class Name :  com.kgisl.bootbrit.service.UserServiceImpl
+2023-01-09 09:32:23.863  INFO 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : Entering in Method :  login
+2023-01-09 09:32:23.864  WARN 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : Argumentsttt :  [praveeen, 1234]
+2023-01-09 09:32:24.144  INFO 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : ------------------- @AfterReturning advice called ---------------------------------
+2023-01-09 09:32:24.157  INFO 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      :  >Returning for class : {} ; Method : {} com.kgisl.bootbrit.service.UserServiceImpllogin
+2023-01-09 09:32:24.158  INFO 4504 --- [http-nio-8080-exec-9] com.kgisl.bootbrit.config.Aspectlog      : > with value : {}ModelAndView [view="usertype.html"; model={user=User [id=1, username=praveeen, password=1234, cpassword=1234, email=praveen@gmail.com]}]
+2023-01-09 09:32:24.161 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 09:32:24.193 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ModelAndView [view="usertype.html"; model={user=User [id=1, username=praveeen, password=1234, cpassw (truncated)...]
+2023-01-09 09:32:24.198 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2023-01-09 09:32:24.225 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/usertype.html", parameters={}
+2023-01-09 09:32:24.227 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:24.233 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:24.299 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/images/simple-elegant.jpg", parameters={}
+2023-01-09 09:32:24.300 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:24.302 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 09:32:24.302 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 09:32:24.303 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 09:32:24.304 DEBUG 4504 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 09:32:24.305 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 09:32:24.306 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 09:32:24 IST 2023, status=404, error=Not Found, path=/images/simple-elegant.jp (truncated)...]
+2023-01-09 09:32:24.307 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 09:32:26.904 DEBUG 4504 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/viewer.html", parameters={}
+2023-01-09 09:32:26.906 DEBUG 4504 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:26.908 DEBUG 4504 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:26.950 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/datatable.js", parameters={}
+2023-01-09 09:32:26.952 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:26.953 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 09:32:26.954 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 09:32:26.955 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 09:32:26.956 DEBUG 4504 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 09:32:26.958 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 09:32:26.958 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 09:32:26 IST 2023, status=404, error=Not Found, path=/datatable.js}]
+2023-01-09 09:32:26.960 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 09:32:27.158 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/list", parameters={}
+2023-01-09 09:32:27.159 DEBUG 4504 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getalldata(HttpServletRequest)
+2023-01-09 09:32:27.258 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json]
+2023-01-09 09:32:27.261 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time=12:30, v (truncated)...]
+2023-01-09 09:32:27.264 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:30.995 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/insertdetails.html", parameters={}
+2023-01-09 09:32:30.996 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:30.999 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:35.930 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/datatable.js", parameters={}
+2023-01-09 09:32:35.931 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:35.952 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 09:32:35.953 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 09:32:35.953 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 09:32:35.954 DEBUG 4504 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 09:32:35.955 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 09:32:35.956 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 09:32:35 IST 2023, status=404, error=Not Found, path=/datatable.js}]
+2023-01-09 09:32:35.957 DEBUG 4504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 09:32:35.979 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/list", parameters={}
+2023-01-09 09:32:35.979 DEBUG 4504 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getalldata(HttpServletRequest)
+2023-01-09 09:32:35.983 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json]
+2023-01-09 09:32:35.983 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time=12:30, v (truncated)...]
+2023-01-09 09:32:35.986 DEBUG 4504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:37.497 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/order.html", parameters={}
+2023-01-09 09:32:37.498 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:32:37.501 DEBUG 4504 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:32:37.619 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/user/list3", parameters={}
+2023-01-09 09:32:37.620 DEBUG 4504 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getallid(Event, HttpServletRequest)
+2023-01-09 09:32:37.624 DEBUG 4504 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Event [event_id=1, event_name=null, description=null, location=null, date=null, time=null, venue=nul (truncated)...]
+2023-01-09 09:32:37.706 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 09:32:37.720 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Optional[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time= (truncated)...]
+2023-01-09 09:32:37.721 DEBUG 4504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:33:14.255 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/payment.html", parameters={}
+2023-01-09 09:33:14.256 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:33:14.260 DEBUG 4504 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:33:14.299 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/doer.js", parameters={}
+2023-01-09 09:33:14.299 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/paymentcss.css", parameters={}
+2023-01-09 09:33:14.300 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:33:14.300 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 09:33:14.302 DEBUG 4504 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 09:33:14.304 DEBUG 4504 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 09:35:45.435  INFO 4504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 09:35:45.519  INFO 4504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-09 09:35:45.533  INFO 4504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-09 13:40:18.544  INFO 9556 --- [main] com.kgisl.bootbrit.BootbritApplication   : Starting BootbritApplication using Java 1.8.0_131 on KGISL070 with PID 9556 (C:\Users\praveen.paneerselvam\Desktop\bootbrit\target\classes started by praveen.paneerselvam in C:\Users\praveen.paneerselvam\Desktop\bootbrit)
+2023-01-09 13:40:18.546 DEBUG 9556 --- [main] com.kgisl.bootbrit.BootbritApplication   : Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-09 13:40:18.547  INFO 9556 --- [main] com.kgisl.bootbrit.BootbritApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-09 13:40:20.226  INFO 9556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-09 13:40:20.839  INFO 9556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 497 ms. Found 3 JPA repository interfaces.
+2023-01-09 13:40:24.171  INFO 9556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-09 13:40:24.201  INFO 9556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-09 13:40:24.207  INFO 9556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-09 13:40:24.476  INFO 9556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-09 13:40:24.476  INFO 9556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5809 ms
+2023-01-09 13:40:25.483  INFO 9556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-09 13:40:26.030  INFO 9556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-09 13:40:27.294  INFO 9556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 13:40:28.108  WARN 9556 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-09 13:40:28.325 DEBUG 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-01-09 13:40:28.365  INFO 9556 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-01-09 13:40:28.407 DEBUG 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-01-09 13:40:28.441 DEBUG 9556 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-01-09 13:40:28.459 DEBUG 9556 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-01-09 13:40:28.755  INFO 9556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-09 13:40:28.782  INFO 9556 --- [main] com.kgisl.bootbrit.BootbritApplication   : Started BootbritApplication in 11.035 seconds (JVM running for 11.717)
+2023-01-09 13:40:38.195  INFO 9556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09 13:40:38.196  INFO 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-09 13:40:38.197 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-01-09 13:40:38.198 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-01-09 13:40:38.199 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-01-09 13:40:38.200 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@74764622
+2023-01-09 13:40:38.202 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4eb63dc8
+2023-01-09 13:40:38.202 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-01-09 13:40:38.203  INFO 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-01-09 13:40:38.231 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-01-09 13:40:38.268 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2023-01-09 13:40:38.270 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name 'forward:', model {}
+2023-01-09 13:40:38.273 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [index.html]
+2023-01-09 13:40:38.279 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-01-09 13:40:38.283 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:38.369 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2023-01-09 13:40:38.394 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 13:40:40.647 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/index2.html", parameters={}
+2023-01-09 13:40:40.649 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:40.678 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:40:40.720 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/doer.js", parameters={}
+2023-01-09 13:40:40.721 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:40.723 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:40:45.793 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/user/getin", parameters={}
+2023-01-09 13:40:45.799 DEBUG 9556 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#gotologin(User, HttpServletRequest)
+2023-01-09 13:40:46.150 DEBUG 9556 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [User [id=0, username=praveeen, password=1234, cpassword=null, email=null]]
+2023-01-09 13:40:46.271  INFO 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : -----------------------@Before advice called--------------------------------------
+2023-01-09 13:40:46.274 DEBUG 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : Class Name :  com.kgisl.bootbrit.service.UserServiceImpl
+2023-01-09 13:40:46.285  INFO 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : Entering in Method :  login
+2023-01-09 13:40:46.285  WARN 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : Argumentsttt :  [praveeen, 1234]
+2023-01-09 13:40:46.604  INFO 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : ------------------- @AfterReturning advice called ---------------------------------
+2023-01-09 13:40:46.612  INFO 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      :  >Returning for class : {} ; Method : {} com.kgisl.bootbrit.service.UserServiceImpllogin
+2023-01-09 13:40:46.613  INFO 9556 --- [http-nio-8080-exec-5] com.kgisl.bootbrit.config.Aspectlog      : > with value : {}ModelAndView [view="usertype.html"; model={user=User [id=1, username=praveeen, password=1234, cpassword=1234, email=praveen@gmail.com]}]
+2023-01-09 13:40:46.653 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 13:40:46.672 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ModelAndView [view="usertype.html"; model={user=User [id=1, username=praveeen, password=1234, cpassw (truncated)...]
+2023-01-09 13:40:46.687 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2023-01-09 13:40:46.709 DEBUG 9556 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/usertype.html", parameters={}
+2023-01-09 13:40:46.711 DEBUG 9556 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:46.713 DEBUG 9556 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:40:46.742 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/simple-elegant.jpg", parameters={}
+2023-01-09 13:40:46.743 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:46.747 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 13:40:46.748 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 13:40:46.749 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 13:40:46.751 DEBUG 9556 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 13:40:46.781 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 13:40:46.783 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 13:40:46 IST 2023, status=404, error=Not Found, path=/images/simple-elegant.jp (truncated)...]
+2023-01-09 13:40:46.788 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 13:40:48.813 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/viewer.html", parameters={}
+2023-01-09 13:40:48.815 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:48.817 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:40:48.878 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/datatable.js", parameters={}
+2023-01-09 13:40:48.880 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:48.882 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 13:40:48.883 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 13:40:48.884 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 13:40:48.885 DEBUG 9556 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 13:40:48.887 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 13:40:48.888 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 13:40:48 IST 2023, status=404, error=Not Found, path=/datatable.js}]
+2023-01-09 13:40:48.890 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 13:40:49.186 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/user/list", parameters={}
+2023-01-09 13:40:49.187 DEBUG 9556 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getalldata(HttpServletRequest)
+2023-01-09 13:40:49.334 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json]
+2023-01-09 13:40:49.337 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time=12:30, v (truncated)...]
+2023-01-09 13:40:49.341 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 13:40:59.971 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/order.html", parameters={}
+2023-01-09 13:40:59.972 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:40:59.974 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:41:00.134 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/user/list3", parameters={}
+2023-01-09 13:41:00.136 DEBUG 9556 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getallid(Event, HttpServletRequest)
+2023-01-09 13:41:00.142 DEBUG 9556 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Event [event_id=1, event_name=null, description=null, location=null, date=null, time=null, venue=nul (truncated)...]
+2023-01-09 13:41:00.252 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 13:41:00.255 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Optional[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time= (truncated)...]
+2023-01-09 13:41:00.257 DEBUG 9556 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 13:44:28.266 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/user/list3", parameters={}
+2023-01-09 13:44:28.268 DEBUG 9556 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getallid(Event, HttpServletRequest)
+2023-01-09 13:44:28.269 DEBUG 9556 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Event [event_id=1, event_name=null, description=null, location=null, date=null, time=null, venue=nul (truncated)...]
+2023-01-09 13:44:28.274 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 13:44:28.275 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Optional[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time= (truncated)...]
+2023-01-09 13:44:28.277 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 13:48:39.528 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/payment.html", parameters={}
+2023-01-09 13:48:39.531 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:48:39.533 DEBUG 9556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:48:39.559 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/paymentcss.css", parameters={}
+2023-01-09 13:48:39.561 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:48:39.563 DEBUG 9556 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-01-09 13:49:01.544 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/user/saveorder", parameters={}
+2023-01-09 13:49:01.559 DEBUG 9556 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#saveorder(Payment, HttpServletRequest)
+2023-01-09 13:49:01.576 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<?> com.kgisl.bootbrit.controller.BriteController.saveorder(com.kgisl.bootbrit.model.Payment,javax.servlet.http.HttpServletRequest): JSON parse error: Cannot deserialize value of type `long` from String "123456789809q": not a valid `long` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `long` from String "123456789809q": not a valid `long` value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 73] (through reference chain: com.kgisl.bootbrit.model.Payment["card_no"])
+2023-01-09 13:49:01.600  WARN 9556 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "123456789809q": not a valid `long` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `long` from String "123456789809q": not a valid `long` value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 73] (through reference chain: com.kgisl.bootbrit.model.Payment["card_no"])]
+2023-01-09 13:49:01.600 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2023-01-09 13:49:01.601 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2023-01-09 13:49:01.602 DEBUG 9556 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 13:49:01.603 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 13:49:01.603 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 13:49:01 IST 2023, status=400, error=Bad Request, path=/user/saveorder}]
+2023-01-09 13:49:01.604 DEBUG 9556 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2023-01-09 13:49:13.517 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/user/saveorder", parameters={}
+2023-01-09 13:49:13.519 DEBUG 9556 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#saveorder(Payment, HttpServletRequest)
+2023-01-09 13:49:13.521 DEBUG 9556 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Payment [id=0, username=praveeen, event_id=1, amount=1165, card_no=123456789809966, card_name=gowtha (truncated)...]
+2023-01-09 13:49:13.922 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 13:49:13.931 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Payment [id=3, username=praveeen, event_id=1, amount=1165, card_no=123456789809966, card_name=gowtha (truncated)...]
+2023-01-09 13:49:13.933 DEBUG 9556 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2023-01-09 13:49:21.053 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/user/saveorder", parameters={}
+2023-01-09 13:49:21.056 DEBUG 9556 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#saveorder(Payment, HttpServletRequest)
+2023-01-09 13:49:21.059 DEBUG 9556 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Payment [id=0, username=praveeen, event_id=1, amount=1165, card_no=1234567898099668, card_name=gowth (truncated)...]
+2023-01-09 13:49:21.074 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/viewer.html", parameters={}
+2023-01-09 13:49:21.075 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:49:21.097 DEBUG 9556 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 13:49:21.135 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2023-01-09 13:49:21.135 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Payment [id=4, username=praveeen, event_id=1, amount=1165, card_no=1234567898099668, card_name=gowth (truncated)...]
+2023-01-09 13:49:21.136 DEBUG 9556 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2023-01-09 13:49:21.162 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/datatable.js", parameters={}
+2023-01-09 13:49:21.163 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-09 13:49:21.188 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-01-09 13:49:21.190 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-01-09 13:49:21.191 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-01-09 13:49:21.191 DEBUG 9556 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-09 13:49:21.192 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-09 13:49:21.193 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jan 09 13:49:21 IST 2023, status=404, error=Not Found, path=/datatable.js}]
+2023-01-09 13:49:21.194 DEBUG 9556 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-01-09 13:49:21.223 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/user/list", parameters={}
+2023-01-09 13:49:21.224 DEBUG 9556 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.kgisl.bootbrit.controller.BriteController#getalldata(HttpServletRequest)
+2023-01-09 13:49:21.261 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json]
+2023-01-09 13:49:21.262 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Event [event_id=1, event_name=concert, description=sig, location=xx, date=2023-01-17, time=12:30, v (truncated)...]
+2023-01-09 13:49:21.263 DEBUG 9556 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-09 14:01:46.869  INFO 9556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 14:01:46.909  INFO 9556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-09 14:01:46.929  INFO 9556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

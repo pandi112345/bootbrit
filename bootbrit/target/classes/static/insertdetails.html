@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url("https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg");
+            background-size: cover;
+            height: 100%;
+       }
+      #hh{
+        color:white;
+       }
+    </style>
+</head>
+<body onload="username()">
+    <script src="doer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+    <div>
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand"></a>
+          <form class="form-inline">
+            <a class="navbar-brand" id="uname"></a>
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+        </nav>
+      </div>
+      <center>
+    <h1 id="hh">Events you need to add</h1>
+    <form action="javascript:void(0);" method="post">
+        <p></p>
+        eventID:<input type="text" name="event_id" id="event_id"><br></p>
+        <p>  evenName:<input type="text" name="event_name" id="event_name"><br></p>
+            <p> description:<input type="text" name="decs" id="decs"><br></p>
+                <p>  location:<input type="text" name="location" id="location"><br></p>
+                    <p>  date:<input type="date" name="date"  id="date"><br></p>
+                        <p>  time:<input type="text" name="time" id="time"><br></p>
+                            <p>  venue:<input type="text" name="venue" id="venue"><br></p>
+                                <p>   concept:<input type="text" name="concept" id="concept"><br></p>
+                                    <p>   company:<input type="text" name="company" id="company"><br></p>
+                                        <p>  prize:<input type="text" name="prize" id="prize"><br></p>
+        <button onclick="insertdetails()">submit</button>
+        </form>
+    </center>
+</body>
+</html>
